@@ -1,2 +1,1 @@
-static-lfs/libwhisper.a filter=lfs diff=lfs merge=lfs -text
-static-lfs/* filter=lfs diff=lfs merge=lfs -text
+whisper/internal/static-lfs/* filter=lfs diff=lfs merge=lfs -text
