@@ -7,3 +7,7 @@ package internal
 #cgo LDFLAGS: -L${SRCDIR}/static-lfs/linux_x86_64_cpu -lwhisper -lm
 */
 import "C"
+
+const (
+	platform = "Linux x86_64 CPU"
+)
