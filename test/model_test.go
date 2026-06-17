@@ -11,4 +11,9 @@ func TestLoadingModel(t *testing.T) {
 	if model.GetString() != "hey" {
 		t.Errorf("Failed loading Model!")
 	}
+
+	model = whisper.LoadModelForPlatform()
+	if s := model.GetString(); s != "hey" {
+		t.Logf("Success fully loaded model with platform: %s", s)
+	}
 }
