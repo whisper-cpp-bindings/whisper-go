@@ -5,5 +5,5 @@
 package internal
 
 const (
-	platform = "Darwin arm_64 Metal"
+	Platform = "Darwin arm_64 Metal"
 )

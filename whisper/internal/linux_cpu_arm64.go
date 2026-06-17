@@ -5,5 +5,5 @@
 package internal
 
 const (
-	platform = "Linux arm_64 CPU"
+	Platform = "Linux arm_64 CPU"
 )

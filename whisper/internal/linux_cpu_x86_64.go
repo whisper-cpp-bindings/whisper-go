@@ -9,5 +9,5 @@ package internal
 import "C"
 
 const (
-	platform = "Linux x86_64 CPU"
+	Platform = "Linux x86_64 CPU"
 )
